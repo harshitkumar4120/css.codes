@@ -1,2 +1,2 @@
 # css.codes
-A code repo css codes i learn.
+A code repo of css codes i learn.
