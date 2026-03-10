@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    :root{
+        --color:red;
+        --seccolor:gray;
+    }
+    div :first-child{
+        color: red;
+    }
+   .h1{
+    color: var(--color);
+
+   }
+   /* h3{
+    color:var(--seccolor)
+   } */
+
+    ul{
+        display: flex;
+        background-color: var(--seccolor);
+
+    }
+    ul li{
+        padding: 30px;
+    }
+    ul li:first-child{
+        --color: rgb(202, 14, 14);
+        background-color: var(--color);
+    }
+    
+</style>
+<body>
+    <div>
+    <ul>
+        <li>about </li>
+        <li>contact</li>
+        <li>home</li>
+        </ul>
+
+    <h1 class="h1">dkudh</h1>
+    <h3 style="color: var(--color);">duygijsdox</h3>
+
+    </div>
+</body>
+</html>
